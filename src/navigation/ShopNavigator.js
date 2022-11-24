@@ -29,7 +29,12 @@ const ShopNavigator = () => {
                 options = {({route}) => ({
                     title: route.params.name
                 })} />
-                <Stack.Screen name = "Details" component = {BreadDetailsScreen}/>
+                <Stack.Screen 
+                name = "Details" 
+                component = {BreadDetailsScreen}
+                options = {({route}) => ({
+                    title: route.params.name
+                })}/>
             </Stack.Navigator>
         </NavigationContainer>
     )

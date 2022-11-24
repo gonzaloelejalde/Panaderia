@@ -31,4 +31,12 @@ export const BREADS = [
         weight: "900gr",
         price: 35,
     },
+    {
+        id: "4",
+        category: "2",
+        name: "Pan Integral",
+        description: "Integral",
+        weight: "500gr",
+        price: 10,
+    },
 ]
