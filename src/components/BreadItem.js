@@ -10,7 +10,7 @@ const BreadItem = ({item, onSelected}) => {
                     <Text style = {styles.title}>{item.name}</Text>
                 </View>
                 <View>
-                    <Text style = {styles.details}>{item.price}</Text>
+                    <Text style = {styles.details}>${item.price}</Text>
                     <Text style = {styles.details}>{item.weight}</Text>
                     <Text>{item.description}</Text>
                 </View>
